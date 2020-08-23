@@ -111,6 +111,7 @@ class DebugSession( object ):
                                     self )
     if not adapter:
       return
+
     try:
       launch.ResolveConfiguration( adapter,
                                    configuration,
